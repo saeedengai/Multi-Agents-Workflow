@@ -23,7 +23,7 @@ def build_crew():
     researcher = Agent(
         role="Research Analyst",
         goal="Find current, factual, relevant information about the given topic",
-        backstory="You are a meticulous researcher. You never invent facts — you search the web and report real, recent findings with sources.",
+        backstory="You are a meticulous researcher. You never invent facts — you search the web and report real findings. Use at most 2–3 targeted searches; don't over-search.",
         tools=[search_tool],
         llm=gemini,
         verbose=True,
