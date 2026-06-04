@@ -67,7 +67,7 @@ def build_crew():
         ),
         expected_output="The final, polished LinkedIn post, ready to publish.",
         agent=editor,
-        context=[write_post],
+        context=[research_task,write_post],
     )
 
     return Crew(
