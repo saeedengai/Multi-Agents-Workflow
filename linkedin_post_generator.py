@@ -2,7 +2,7 @@
 
 import os
 
-# Keep CrewAI's helper storage on the D: drive (C: is full), set BEFORE importing crewai
+# Keep CrewAI's helper storage
 os.environ.setdefault(
     "CREWAI_STORAGE_DIR",
     os.path.join(os.path.dirname(os.path.abspath(__file__)), ".crewai_storage"),
