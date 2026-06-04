@@ -10,6 +10,8 @@ multi_agent_env/
 # generated drafts
 posts/
 
+playground.ipynb
+
 # Python clutter
 __pycache__/
 *.pyc
