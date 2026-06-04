@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Virtual environment (too big, rebuildable)
+multi_agent_env/
+
+# CrewAI's local storage
+.crewai_storage/
+
+# generated drafts
+posts/
+
+# Python clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
